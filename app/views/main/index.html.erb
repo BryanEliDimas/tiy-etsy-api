@@ -3,13 +3,13 @@
     <% products.each do |product| %>
       <div class="col-sm-12 col-md-3">
         <div class="thumbnail">
-          <%= image_tag product["MainImage"]["url_fullxfull"], class: "img img-responsive" %>
+          <%= image_tag product["MainImage"]["url_170x135"], class: "img img-responsive" %>
           <div class="caption">
-            <h4><%= product["title"].truncate(15) %></h4>
+            <h4><%= product["title"].truncate(30) %></h4>
             <p>
               $<%= product["price"] %>
             </p>
-            <p><%= link_to "Find on Etsy", product["url"], class: "btn btn-default" %></p>
+            <p><%= link_to "View on Etsy", product["url"], class: "btn btn-default" %></p>
           </div>
         </div>
       </div>
