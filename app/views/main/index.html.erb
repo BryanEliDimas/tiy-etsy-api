@@ -7,7 +7,7 @@
           <div class="caption">
             <h4><%= product["title"].truncate(15) %></h4>
             <p>
-              <%= product["price"] %>
+              $<%= product["price"] %>
             </p>
             <p><%= link_to "Find on Etsy", product["url"], class: "btn btn-default" %></p>
           </div>
