@@ -1,8 +1,6 @@
 ## The Iron Yard - Day 36 - Consuming APIs
-=============
 
 ### Assignment
-----------
 
 Create a Rails app that shows the 10 most recent Etsy listings. It should:
 
